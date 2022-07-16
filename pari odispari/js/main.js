@@ -9,7 +9,7 @@ const numeroUser =parseInt(prompt('scegli un numero da 1 a 5'))
 
   const ParioDispari = controllaParioDispari(sommaNumeri);
   if(parioDispari == ParioDispari ){ alert('hai vinto');}
-  else{alert('hai perso')}
+  else{alert('hai perso');}
   
   
 
@@ -21,6 +21,6 @@ function GeneraNumero(min,max ){
  return Math.floor(Math.random() * ( max - min + 1 )) +  min;
 }
 function controllaParioDispari (numero){
-    if(numero % 2 == 0 ){return 'pari'}
-    else {return 'dispari'};
+    if(numero % 2 == 0 ){return 'pari';}
+    else {return 'dispari';}
 }
